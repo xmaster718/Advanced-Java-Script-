@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f6f8;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    padding: 18px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px, black;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: blue;
+}
+
+.card p {
+    overflow-wrap: anywhere;
+    color: grey;
+}
